@@ -68,7 +68,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
           url: `${siteUrl}/images/hero.webp`,
           width: 1920,
           height: 1080,
-          alt: "Resident Alien Netflix - Surreal Voxel Sandbox",
+          alt: "Resident Alien Netflix Wiki Hero Image",
         },
       ],
     },

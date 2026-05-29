@@ -310,10 +310,17 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         description: metadata.description,
         alternates: buildLanguageAlternates(fullPath, locale as Locale, siteUrl),
         openGraph: {
-          title: metadata.title,
+          title: `${metadata.title} - Resident Alien Netflix Wiki`,
           description: metadata.description,
-          images: metadata.image ? [metadata.image] : [],
+          siteName: 'Resident Alien Netflix Wiki',
+          images: metadata.image ? [metadata.image] : [`${siteUrl}/images/hero.webp`],
           url: `${siteUrl}${locale === 'en' ? fullPath : `/${locale}${fullPath}`}`,
+        },
+        twitter: {
+          card: 'summary_large_image',
+          title: `${metadata.title} - Resident Alien Netflix Wiki`,
+          description: metadata.description,
+          images: metadata.image ? [metadata.image] : [`${siteUrl}/images/hero.webp`],
         },
         robots: {
           index: true,
@@ -345,10 +352,17 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
             description: metadata.description,
             alternates: buildLanguageAlternates(fullPath, locale as Locale, siteUrl),
             openGraph: {
-              title: metadata.title,
+              title: `${metadata.title} - Resident Alien Netflix Wiki`,
               description: metadata.description,
-              images: metadata.image ? [metadata.image] : [],
+              siteName: 'Resident Alien Netflix Wiki',
+              images: metadata.image ? [metadata.image] : [`${siteUrl}/images/hero.webp`],
               url: `${siteUrl}${locale === 'en' ? fullPath : `/${locale}${fullPath}`}`,
+            },
+            twitter: {
+              card: 'summary_large_image',
+              title: `${metadata.title} - Resident Alien Netflix Wiki`,
+              description: metadata.description,
+              images: metadata.image ? [metadata.image] : [`${siteUrl}/images/hero.webp`],
             },
             robots: {
               index: true,

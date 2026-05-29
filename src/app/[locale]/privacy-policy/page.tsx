@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return {
     title: 'Privacy Policy - Resident Alien Netflix Wiki',
-    description: 'Resident Alien Netflix Wiki Privacy Policy. Learn how we collect, use, and protect your data when you use our Steam game resource platform. Your privacy matters to us.',
+    description: 'Resident Alien Netflix Wiki Privacy Policy. Learn how we collect, use, and protect your data when you use our TV series resource platform. Your privacy matters to us.',
     robots: {
       index: false,
       follow: true,
@@ -65,7 +65,7 @@ export default function PrivacyPolicy() {
             How we collect, use, and protect your information
           </p>
           <p className="text-slate-400 text-sm">
-            Last Updated: March 14, 2026
+            Last Updated: May 29, 2026
           </p>
         </div>
       </section>
@@ -141,7 +141,7 @@ export default function PrivacyPolicy() {
 
             <h2>4. Third-Party Services</h2>
             <p>
-              Our website may contain links to external websites, including Steam, Discord, and social media platforms.
+              Our website may contain links to external websites, including streaming platforms and social media channels.
               We are not responsible for the privacy practices or content of these third-party sites. We encourage
               you to review their privacy policies before providing any personal information.
             </p>
@@ -213,7 +213,7 @@ export default function PrivacyPolicy() {
             <h2>11. Disclaimer</h2>
             <p>
               Resident Alien Netflix Wiki is an unofficial fan-made website and is not affiliated with, endorsed by, or associated
-              with Valve Corporation (Steam) or the developers of Resident Alien Netflix. All game content, trademarks, and assets are
+              with SYFY, USA Network, NBCUniversal, Netflix, or the production companies behind Resident Alien. All game content, trademarks, and assets are
               the property of their respective owners.
             </p>
 

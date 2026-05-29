@@ -31,7 +31,7 @@
     "title": "Resident Alien Netflix Wiki",
     "description": "Resident Alien Netflix Wiki helps viewers follow Harry Vanderspeigle's story with episode guides, cast and character notes, alien lore, ending explanations, streaming info, and filming locations.",
     "getFreeCodesCTA": "View Episode Guide",
-    "playOnSteamCTA": "Watch on Peacock",
+    "playOnSteamCTA": "Watch Resident Alien on Peacock",
     "stats": {
       "stat1": {
         "value": "4",
@@ -780,8 +780,8 @@
   "cta": {
     "title": "Start Watching Resident Alien Netflix",
     "description": "Read episode guides and ending explainers, then watch Resident Alien on Peacock or Netflix.",
-    "joinCommunity": "Join Reddit Community",
-    "joinGame": "Watch on Peacock"
+    "joinCommunity": "Join Resident Alien Reddit",
+    "joinGame": "Watch Resident Alien on Peacock"
   },
   "footer": {
     "title": "Resident Alien Netflix Wiki",
@@ -789,7 +789,7 @@
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
-    "discord": "Reddit Community",
+    "discord": "Reddit",
     "twitter": "X / Twitter",
     "steamCommunity": "Netflix",
     "steamStore": "Peacock",

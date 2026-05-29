@@ -65,7 +65,7 @@ export default function Copyright() {
             Intellectual property rights and usage terms
           </p>
           <p className="text-slate-400 text-sm">
-            Last Updated: March 14, 2026
+            Last Updated: May 29, 2026
           </p>
         </div>
       </section>
@@ -95,13 +95,13 @@ export default function Copyright() {
               <li><strong>Resident Alien Netflix Developers</strong> - Creators of the Resident Alien Netflix game</li>
             </ul>
             <p>
-              All game-related content, including but not limited to:
+              All series-related content, including but not limited to:
             </p>
             <ul>
               <li>Character images and artwork</li>
-              <li>Game screenshots and interface elements</li>
+              <li>Promotional stills and trailer frames</li>
               <li>Game logos and branding</li>
-              <li>Character names and abilities</li>
+              <li>Character names, story elements, and episode references</li>
               <li>In-game items and mechanics</li>
             </ul>
             <p>
@@ -117,11 +117,11 @@ export default function Copyright() {
             <ul>
               <li><strong>Non-commercial:</strong> We do not directly monetize game assets or content</li>
               <li><strong>Transformative:</strong> We provide guides, analysis, and community resources</li>
-              <li><strong>Educational:</strong> We help players learn and understand game mechanics</li>
+              <li><strong>Educational:</strong> We help players learn and understand story context, episodes, and characters</li>
               <li><strong>Minimal impact:</strong> Our use does not substitute for or harm the original game</li>
             </ul>
             <p>
-              We believe our use of copyrighted materials enhances the game experience and serves the community
+              We believe our use of copyrighted materials enhances the series viewing experience and serves the community
               without harming the commercial interests of the copyright holders.
             </p>
 
@@ -152,9 +152,9 @@ export default function Copyright() {
               The following trademarks and service marks are the property of their respective owners:
             </p>
             <ul>
-              <li><strong>STEAM</strong> - Trademark of Valve Corporation</li>
-              <li><strong>Resident Alien Netflix</strong> - Trademark of the game developers</li>
-              <li><strong>Resident Alien Netflix Wiki</strong> - Our own branding (not affiliated with the game)</li>
+              <li><strong>RESIDENT ALIEN</strong> - Trademark of the respective rights holders</li>
+              <li><strong>PEACOCK / NBC</strong> - Trademarks of NBCUniversal</li>
+              <li><strong>Resident Alien Netflix Wiki</strong> - Our own branding (not affiliated with official rights holders)</li>
             </ul>
             <p>
               All other trademarks, service marks, and trade names referenced on this website are the property of
