@@ -1,10 +1,555 @@
 {
+  "seo": {
+    "home": {
+      "title": "Resident Alien Wiki - Episodios, Elenco y Final",
+      "description": "Resident Alien Wiki cubre episodios, elenco, personajes, alienígenas, final explicado, guía de streaming, lugares de rodaje y detalles del final de la Temporada 4.",
+      "keywords": "Resident Alien, Peacock, Netflix, episodios, elenco, personajes, final, streaming",
+      "ogTitle": "Resident Alien Wiki - Episodios, Elenco y Final",
+      "ogDescription": "Resident Alien Wiki cubre episodios, elenco, personajes, alienígenas, final explicado, guía de streaming, lugares de rodaje y detalles del final de la Temporada 4.",
+      "twitterTitle": "Resident Alien Wiki - Episodios, Elenco y Final",
+      "twitterDescription": "Resident Alien Wiki cubre episodios, elenco, personajes, alienígenas, final explicado, guía de streaming y lugares de rodaje."
+    }
+  },
   "nav": {
-    "season": "Season",
-    "cast": "Cast",
+    "season": "Temporada",
+    "cast": "Elenco",
     "streaming": "Streaming",
-    "guide": "Guide",
-    "reviews": "Reviews",
-    "characters": "Characters"
+    "guide": "Guía",
+    "reviews": "Reseñas",
+    "characters": "Personajes"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Ver en Peacock",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que buscas no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Artículos próximamente"
+  },
+  "hero": {
+    "badge": "Drama de comedia de ciencia ficción",
+    "title": "Resident Alien Netflix Wiki",
+    "description": "Resident Alien Netflix Wiki ayuda a los espectadores a seguir la historia de Harry Vanderspeigle con guías de episodios, notas sobre el elenco y personajes, lore alienígena, explicaciones del final, información de streaming y lugares de rodaje.",
+    "getFreeCodesCTA": "Ver guía de episodios",
+    "playOnSteamCTA": "Ver Resident Alien en Peacock",
+    "stats": {
+      "stat1": {
+        "value": "4",
+        "label": "Temporadas"
+      },
+      "stat2": {
+        "value": "44",
+        "label": "Episodios"
+      },
+      "stat3": {
+        "value": "97%",
+        "label": "Calificación en Peacock"
+      },
+      "stat4": {
+        "value": "TV-14",
+        "label": "Clasificación por edad"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Tráiler de Resident Alien",
+    "description": "Mira el tráiler oficial de Resident Alien y usa la wiki para seguir episodios, personajes, la historia alienígena y los detalles del final."
+  },
+  "tools": {
+    "title": "Resident Alien Netflix",
+    "titleHighlight": "Navegación del Módulo",
+    "subtitle": "Salta a las guías principales de Resident Alien Netflix a continuación.",
+    "cards": [
+      {
+        "icon": "BookOpen",
+        "title": "Estado de la Temporada Final de Resident Alien Netflix",
+        "description": "Renovación de la temporada 5 y contexto de la temporada final."
+      },
+      {
+        "icon": "MonitorPlay",
+        "title": "Guía de Streaming de Resident Alien Netflix",
+        "description": "Dónde ver en Peacock, USA, SYFY y Netflix."
+      },
+      {
+        "icon": "ListVideo",
+        "title": "Guía de Episodios de Resident Alien Netflix",
+        "description": "Lista de episodios de la temporada 4, fechas y detalles de duración."
+      },
+      {
+        "icon": "Users",
+        "title": "Guía del Elenco de Resident Alien Netflix",
+        "description": "Elenco principal, personajes e invitados notables de la temporada."
+      },
+      {
+        "icon": "FileText",
+        "title": "Final Explicado de Resident Alien Netflix",
+        "description": "Resumen de la historia y resultado final en pasos claros."
+      },
+      {
+        "icon": "Star",
+        "title": "Calificaciones de Resident Alien Netflix",
+        "description": "Instantánea de la puntuación de la audiencia y la crítica."
+      },
+      {
+        "icon": "MapPinned",
+        "title": "Ubicaciones de Resident Alien Netflix",
+        "description": "El escenario de Patience y las ubicaciones reales de filmación."
+      },
+      {
+        "icon": "Library",
+        "title": "Guía de Cómics de Resident Alien Netflix",
+        "description": "Material original y diferencias de adaptación."
+      }
+    ]
+  },
+  "modules": {
+    "season5FinalSeasonStatus": {
+      "title": "Estado de la Temporada 5 y Temporada Final de Resident Alien Netflix",
+      "intro": "Resident Alien terminó con la Temporada 4, y actualmente no hay una continuación anunciada para la Temporada 5.",
+      "items": [
+        {
+          "label": "Estado de la Temporada 5",
+          "status": "No se ha anunciado renovación",
+          "description": "Las actualizaciones oficiales actuales indican que la serie de televisión concluyó con la Temporada 4."
+        },
+        {
+          "label": "Confirmación de la Temporada Final",
+          "status": "La Temporada 4 fue planeada como el final",
+          "description": "Los mensajes de producción y lanzamiento posicionaron la Temporada 4 como el capítulo final."
+        },
+        {
+          "label": "Final de la Serie",
+          "status": "Episodio 10: El Fin Está Aquí",
+          "description": "El final de la temporada resuelve el conflicto central de Harry mientras cierra los arcos de Patience."
+        },
+        {
+          "label": "Perspectivas Futuras",
+          "status": "No hay una temporada de seguimiento programada",
+          "description": "Los fans aún pueden volver a ver la serie completa a través de las plataformas de streaming disponibles."
+        }
+      ]
+    },
+    "whereToWatchStreamingGuide": {
+      "title": "Guía de dónde ver y streaming de Resident Alien Netflix",
+      "intro": "Usa este módulo para comparar las opciones de visualización oficiales y elegir la mejor forma de ver la serie completa en streaming.",
+      "items": [
+        {
+          "platform": "Peacock",
+          "details": "Plataforma principal para el acceso a episodios completos, incluyendo las cuatro temporadas."
+        },
+        {
+          "platform": "USA Network",
+          "details": "Centro oficial de la cadena para el contexto de la programación, clips y cobertura editorial."
+        },
+        {
+          "platform": "SYFY",
+          "details": "Página oficial del programa con videos de avances y lo más destacado de la temporada."
+        },
+        {
+          "platform": "Netflix",
+          "details": "El acceso al catálogo regional puede variar, pero la página del título permanece activa."
+        }
+      ]
+    },
+    "season4EpisodeGuide": {
+      "title": "Guía de episodios de la temporada 4 de Resident Alien Netflix",
+      "intro": "La temporada 4 incluye 10 episodios y cierra la trama principal de Harry Vanderspeigle.",
+      "items": [
+        {
+          "episode": 1,
+          "title": "Prisioneros",
+          "tv_air_date": "6 de junio de 2025",
+          "runtime": "43 min",
+          "summary": "Harry corre para escapar del cautiverio y regresar antes de que el peligro llegue a Patience."
+        },
+        {
+          "episode": 2,
+          "title": "El hombre solitario",
+          "tv_air_date": "13 de junio de 2025",
+          "runtime": "43 min",
+          "summary": "Harry y Asta trabajan en un plan de alto riesgo con aliados limitados."
+        },
+        {
+          "episode": 3,
+          "title": "Lazos que unen",
+          "tv_air_date": "20 de junio de 2025",
+          "runtime": "43 min",
+          "summary": "Una misión fuera del pueblo revela más sobre la tecnología alienígena y la confianza."
+        },
+        {
+          "episode": 4,
+          "title": "La verdad duele",
+          "tv_air_date": "27 de junio de 2025",
+          "runtime": "43 min",
+          "summary": "Un reencuentro obliga a tomar decisiones difíciles en torno a la lealtad y la identidad."
+        },
+        {
+          "episode": 5,
+          "title": "La condición humana",
+          "tv_air_date": "4 de julio de 2025",
+          "runtime": "43 min",
+          "summary": "Harry lucha con el costo de volverse más humano."
+        },
+        {
+          "episode": 6,
+          "title": "Proveedores de almas",
+          "tv_air_date": "11 de julio de 2025",
+          "runtime": "43 min",
+          "summary": "Una autoridad cósmica mayor sopesa las acciones pasadas de Harry."
+        },
+        {
+          "episode": 7,
+          "title": "Problemas paternales",
+          "tv_air_date": "18 de julio de 2025",
+          "runtime": "43 min",
+          "summary": "Viejas heridas se reabren mientras Harry se enfrenta a una historia sin resolver."
+        },
+        {
+          "episode": 8,
+          "title": "Pueblo minero",
+          "tv_air_date": "25 de julio de 2025",
+          "runtime": "43 min",
+          "summary": "El equipo improvisa con un apoyo poco probable para proteger al pueblo."
+        },
+        {
+          "episode": 9,
+          "title": "Visión de túnel",
+          "tv_air_date": "1 de agosto de 2025",
+          "runtime": "44 min",
+          "summary": "La presión llega a su punto máximo mientras cada decisión conlleva consecuencias a largo plazo."
+        },
+        {
+          "episode": 10,
+          "title": "El fin está aquí",
+          "tv_air_date": "8 de agosto de 2025",
+          "runtime": "47 min",
+          "summary": "El final resuelve la amenaza definitiva y cierra el arco central."
+        }
+      ]
+    },
+    "castAndCharactersGuide": {
+      "title": "Guía de reparto y personajes de Resident Alien Netflix",
+      "intro": "Conoce al elenco principal y los roles de los personajes que dan forma a los desafíos de la temporada final.",
+      "items": [
+        {
+          "actor": "Alan Tudyk",
+          "character": "Harry Vanderspeigle",
+          "description": "Lidera la serie como un alienígena que navega por la humanidad y la responsabilidad."
+        },
+        {
+          "actor": "Sara Tomko",
+          "character": "Asta Twelvetrees",
+          "description": "La aliada humana clave de Harry y su ancla emocional a lo largo de la serie."
+        },
+        {
+          "actor": "Corey Reynolds",
+          "character": "Sheriff Mike Thompson",
+          "description": "Perspectiva de la ley y el orden que choca gradualmente con la verdad alienígena."
+        },
+        {
+          "actor": "Alice Wetterlund",
+          "character": "D arcy Bloom",
+          "description": "La mejor amiga de Asta y una voz de apoyo fundamental en los arcos finales."
+        },
+        {
+          "actor": "Levi Fiehler",
+          "character": "Ben Hawthorne",
+          "description": "Alcalde de Patience involucrado en eventos de cada vez mayor riesgo."
+        },
+        {
+          "actor": "Meredith Garretson",
+          "character": "Kate Hawthorne",
+          "description": "Ayuda a fundamentar las consecuencias a nivel familiar y de la ciudad del conflicto alienígena."
+        }
+      ]
+    },
+    "storyRecapAndEndingExplained": {
+      "title": "Resumen de la historia y explicación del final de Resident Alien Netflix",
+      "intro": "Resident Alien sigue a Harry Vanderspeigle desde invasor estrellado hasta protector improbable de Patience, Colorado. Este resumen separa los puntos de configuración sin spoilers de las revelaciones a nivel de final.",
+      "steps": [
+        {
+          "title": "La configuración",
+          "description": "Un alienígena se estrella cerca de Patience, mata al verdadero Harry Vanderspeigle y se esconde a plena vista mientras intenta terminar su misión."
+        },
+        {
+          "title": "Temporada 1: Harry comienza a cambiar",
+          "description": "Mientras se hace pasar por el médico del pueblo, Harry se ve envuelto en misterios locales y comienza a cambiar a través de su vínculo con Asta, Max y Patience."
+        },
+        {
+          "title": "Temporada 2 y 3: Los Grises y el arco de la base lunar",
+          "description": "Los Grises se convierten en una amenaza directa, Bridget entra en el centro de la historia y una toma de identidad Mantid crea un gran cliffhanger."
+        },
+        {
+          "title": "Temporada 4: Regreso, amenaza final y significado del final",
+          "description": "Harry regresa a Patience, se enfrenta a una amenaza alienígena final vinculada a la misión y termina la serie eligiendo la empatía, el sacrificio y la protección sobre la destrucción."
+        }
+      ]
+    },
+    "reviewsAndRatings": {
+      "title": "Instantánea de reseñas y calificaciones de Resident Alien Netflix",
+      "intro": "Resident Alien Netflix está fuertemente calificado en las principales plataformas de reseñas, con una alta aprobación de la crítica y un apoyo duradero de la audiencia.",
+      "items": [
+        {
+          "label": "Rotten Tomatoes",
+          "score": "97%",
+          "note": "Tomatometer promedio de 44 reseñas de críticos, con una puntuación de audiencia del 87% de más de 1,000 calificaciones."
+        },
+        {
+          "label": "Puntuaciones de críticos por temporada",
+          "score": "S1 91% · S2 100% · S4 100%",
+          "note": "Las listas de temporadas visibles muestran un apoyo constante de la crítica a lo largo de toda la emisión."
+        },
+        {
+          "label": "Metacritic",
+          "score": "70 / 7.0",
+          "note": "Metascore 70 de críticos y puntuación de usuario 7.0 de 188 calificaciones, ambos generalmente favorables."
+        },
+        {
+          "label": "IMDb",
+          "score": "8.0/10",
+          "note": "Basado en aproximadamente 87K calificaciones de usuarios, lo que refleja una amplia aprobación de los espectadores."
+        },
+        {
+          "label": "Conclusión de la reseña",
+          "score": "Gran atractivo para la audiencia",
+          "note": "Ideal para espectadores que desean misterio alienígena, comedia de pueblo pequeño y arcos de personajes de ciencia ficción emocionales."
+        }
+      ]
+    },
+    "filmingLocationsGuide": {
+      "title": "Guía de lugares de rodaje de Resident Alien Netflix y Patience",
+      "intro": "Patience, Colorado es ficticia, mientras que la producción de Resident Alien Netflix se realizó principalmente en Columbia Británica, Canadá.",
+      "items": [
+        {
+          "place": "Patience, Colorado",
+          "description": "Patience es el pueblo de montaña ficticio en el centro de la historia de Harry y no es un municipio real de Colorado."
+        },
+        {
+          "place": "Ladysmith, Columbia Británica",
+          "description": "Ladysmith, en la isla de Vancouver, sirve como el sustituto real más fiel para las escenas exteriores de las calles de Patience."
+        },
+        {
+          "place": "Vancouver, Columbia Británica",
+          "description": "La producción y los estudios del área de Vancouver se encargan de los interiores principales, incluidos los edificios cívicos, el bar, la cafetería y los sets de las casas."
+        },
+        {
+          "place": "Britannia Beach y el área de Howe Sound",
+          "description": "Se utilizó para la ambientación exterior de la cabaña junto al lago, mientras que las escenas principales del interior de la cabaña se produjeron en sets de estudio controlados."
+        },
+        {
+          "place": "Corredor Sea-to-Sky y el campo de hielo de Pemberton",
+          "description": "Los paisajes de montaña y glaciares de Columbia Británica dan forma al dramático aspecto de naturaleza salvaje de la serie."
+        }
+      ]
+    },
+    "comicSourceMaterialGuide": {
+      "title": "Guía del material original del cómic de Resident Alien Netflix",
+      "intro": "Resident Alien Netflix se basa en el cómic de Dark Horse de Peter Hogan y Steve Parkhouse, y luego se expandió en una adaptación televisiva de reparto coral más amplia.",
+      "items": [
+        {
+          "name": "Orígenes del cómic de 2013",
+          "description": "Resident Alien comenzó como un cómic de Dark Horse sobre un extraterrestre que se esconde como el Dr. Harry Vanderspeigle en un pequeño pueblo."
+        },
+        {
+          "name": "Creadores principales",
+          "description": "El escritor Peter Hogan y el artista Steve Parkhouse son el equipo creativo fundamental detrás de la línea de cómics."
+        },
+        {
+          "name": "Volumen 8 e historia en curso",
+          "description": "The Book of Life continuó la historia recopilada en enero de 2025, seguida de The Book of Changes como un nuevo arco."
+        },
+        {
+          "name": "En qué se diferencia la televisión del cómic",
+          "description": "La serie mantiene la premisa del médico extraterrestre, pero expande el reparto, la mitología y el arco emocional en torno a Harry, Asta y Patience."
+        },
+        {
+          "name": "Ruta de lectura",
+          "description": "Los volúmenes recopilados del cómic siguen siendo la forma más directa de seguir la versión más pausada del material original del misterio de Harry."
+        }
+      ]
+    },
+    "homeQuickNotes": {
+      "title": "Notas rápidas de Resident Alien Netflix",
+      "notes": [
+        "La navegación de héroe, video y herramientas está ordenada para una navegación rápida en la primera pantalla.",
+        "Cada tarjeta de navegación se desplaza directamente a un ancla de sección de módulo correspondiente.",
+        "Todos los títulos de los módulos incluyen Resident Alien Netflix para la consistencia del SEO de la página de inicio."
+      ]
+    }
+  },
+  "faq": {
+    "title": "Resident Alien Netflix",
+    "titleHighlight": "Preguntas frecuentes",
+    "subtitle": "Respuestas rápidas sobre el streaming, el estado del final y los episodios de Resident Alien Netflix.",
+    "questions": [
+      {
+        "question": "¿Está Resident Alien Netflix disponible en todas partes?",
+        "answer": "La disponibilidad del catálogo de Resident Alien Netflix depende de tu región, así que consulta tu página de título local y el acceso a Peacock."
+      },
+      {
+        "question": "¿Tiene Resident Alien Netflix una temporada 5?",
+        "answer": "Resident Alien Netflix no tiene un anuncio confirmado de continuación para la temporada 5 en este momento."
+      },
+      {
+        "question": "¿Cuántos episodios hay en la temporada 4 de Resident Alien Netflix?",
+        "answer": "La temporada 4 de Resident Alien Netflix tiene 10 episodios, terminando con The End Is Here."
+      },
+      {
+        "question": "¿Quién es el protagonista de Resident Alien Netflix?",
+        "answer": "Resident Alien Netflix está protagonizada por Alan Tudyk como Harry Vanderspeigle."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Empieza a ver Resident Alien Netflix",
+    "description": "Lee las guías de episodios y las explicaciones del final, luego mira Resident Alien en Peacock o Netflix.",
+    "joinCommunity": "Únete a Resident Alien Reddit",
+    "joinGame": "Mira Resident Alien en Peacock"
+  },
+  "footer": {
+    "title": "Resident Alien Netflix Wiki",
+    "description": "Tu centro de recursos completo para episodios, reparto, personajes, explicaciones del final y enlaces de streaming de Resident Alien.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "discord": "Reddit",
+    "twitter": "X / Twitter",
+    "steamCommunity": "Netflix",
+    "steamStore": "Peacock",
+    "about": "Acerca de",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "copyrightNotice": "Derechos de autor",
+    "copyright": "© 2026 Resident Alien Netflix Wiki. No afiliado con SYFY, USA Network, Peacock o Netflix.",
+    "disclaimer": "Sitio web de recursos no oficial de la serie de televisión hecho por fans."
+  },
+  "pages": {
+    "season": {
+      "title": "Temporada de Resident Alien Netflix",
+      "description": "Sigue las noticias de la temporada de Resident Alien, incluyendo actualizaciones de la Temporada 4, estado de renovación, fecha de lanzamiento y dónde se transmite cada temporada.",
+      "metaTitle": "Temporada de Resident Alien Netflix - Temporada 4, Temporada 5, Renovación y Actualizaciones de Lanzamiento",
+      "metaDescription": "Sigue la cobertura de la temporada de Resident Alien con la línea de tiempo de la Temporada 4, el estado de la Temporada 5, rumores de cancelación, discusión de la temporada final y actualizaciones de streaming.",
+      "categoryLabel": "ACTUALIZACIONES DE TEMPORADA",
+      "whatIs": "¿Qué es la sección de Temporada?",
+      "whatIsDescription": "Esta sección organiza la cobertura a nivel de temporada: estado actual de la temporada, señales de renovación y cancelación, ventanas de lanzamiento y disponibilidad de la plataforma para cada temporada.",
+      "why": "¿Por qué seguir las actualizaciones de la temporada?",
+      "whySteps": {
+        "step1Title": "Rastrea las señales de renovación",
+        "step1Description": "Mira si Resident Alien está renovada, en riesgo o cerca de un resultado de temporada final.",
+        "step2Title": "Planifica tu ventana de visualización",
+        "step2Description": "Usa las actualizaciones de lanzamiento y tiempo de streaming para saber cuándo están disponibles los nuevos episodios.",
+        "step3Title": "Separa el rumor de la noticia",
+        "step3Description": "Mantén un solo lugar para los hechos de la temporada, los anuncios oficiales y las implicaciones prácticas de la visualización."
+      },
+      "featured": "Destacado y Esencial",
+      "all": "Todos los artículos de la temporada"
+    },
+    "cast": {
+      "title": "Elenco de Resident Alien Netflix",
+      "description": "Explora los perfiles del elenco de Resident Alien, los cambios en el elenco de la Temporada 4 y las referencias de los actores de los personajes, incluidos los papeles recurrentes principales.",
+      "metaTitle": "Elenco de Resident Alien Netflix - Actores, Elenco de la Temporada 4 y Guía de Roles",
+      "metaDescription": "Explora las guías del elenco de Resident Alien con destacados de actores, adiciones al elenco de la Temporada 4, desgloses de roles y apariciones recurrentes de invitados.",
+      "categoryLabel": "GUÍA DEL ELENCO",
+      "whatIs": "¿Qué es la sección de Elenco?",
+      "whatIsDescription": "Esta sección cubre a los actores y el contexto del casting a lo largo de las temporadas, incluyendo quién interpreta a cada personaje principal y cómo el conjunto cambia con el tiempo.",
+      "why": "¿Por qué leer las guías del elenco?",
+      "whySteps": {
+        "step1Title": "Identificar Actores Clave",
+        "step1Description": "Empareja rápidamente los personajes de Resident Alien con los actores que los interpretan.",
+        "step2Title": "Seguir los Cambios de Temporada",
+        "step2Description": "Comprender las adiciones, salidas y roles ampliados del elenco por temporada.",
+        "step3Title": "Navegar Créditos Relacionados",
+        "step3Description": "Utiliza las páginas del elenco como un centro para el contexto de los roles y las apariciones notables."
+      },
+      "featured": "Destacado y Esencial",
+      "all": "Todos los Artículos del Elenco"
+    },
+    "streaming": {
+      "title": "Resident Alien Netflix Streaming",
+      "description": "Encuentra dónde ver Resident Alien en Netflix, Peacock, Prime Video, Apple TV y opciones de streaming regionales.",
+      "metaTitle": "Resident Alien Netflix Streaming - Dónde Ver por Plataforma y Región",
+      "metaDescription": "Consulta la disponibilidad de streaming de Resident Alien, las diferencias de plataforma y las opciones de visualización regional, incluyendo Netflix, Peacock, Prime Video y Apple TV.",
+      "categoryLabel": "OPCIONES DE VISUALIZACIÓN",
+      "whatIs": "¿Qué es la sección de Streaming?",
+      "whatIsDescription": "Esta sección se centra en la disponibilidad de visualización: qué plataformas tienen Resident Alien, cómo difieren las regiones y qué esperar al buscar por servicio.",
+      "why": "¿Por qué usar las guías de streaming?",
+      "whySteps": {
+        "step1Title": "Encontrar Plataformas Activas",
+        "step1Description": "Mira dónde está disponible Resident Alien ahora mismo en los principales servicios.",
+        "step2Title": "Comparar Acceso Regional",
+        "step2Description": "Comprender las diferencias entre los catálogos de plataformas de EE. UU. e internacionales.",
+        "step3Title": "Evitar Búsquedas sin Salida",
+        "step3Description": "Utiliza las páginas específicas de la plataforma para verificar la disponibilidad probable antes de registrarte."
+      },
+      "featured": "Destacado y Esencial",
+      "all": "Todos los Artículos de Streaming"
+    },
+    "guide": {
+      "title": "Guía de Resident Alien Netflix",
+      "description": "Lee las guías de episodios de Resident Alien, resúmenes de la trama, explicaciones del final y estructura de visualización temporada por temporada.",
+      "metaTitle": "Guía de Resident Alien Netflix - Lista de Episodios, Resumen de la Trama y Final Explicado",
+      "metaDescription": "Utiliza los artículos de la guía de Resident Alien para desgloses de episodios, resúmenes de temporada, análisis del final y soporte práctico para el orden de visualización.",
+      "categoryLabel": "GUÍA DE EPISODIOS",
+      "whatIs": "¿Qué es la sección de Guía?",
+      "whatIsDescription": "Esta sección recopila referencias de historias y episodios, incluyendo esquemas de la trama, páginas de resumen, recuentos de episodios y cobertura de finales explicados.",
+      "why": "¿Por qué leer las guías de episodios?",
+      "whySteps": {
+        "step1Title": "Ponerse al Día Más Rápido",
+        "step1Description": "Utiliza las páginas de resumen y trama para volver a la historia antes de una nueva temporada.",
+        "step2Title": "Navegar la Estructura de Episodios",
+        "step2Description": "Consulta el recuento de episodios y la organización de la temporada en un solo lugar.",
+        "step3Title": "Comprender los Finales Clave",
+        "step3Description": "Revisa las explicaciones del final cuando los arcos y revelaciones importantes necesiten contexto."
+      },
+      "featured": "Destacado y Esencial",
+      "all": "Todos los Artículos de la Guía"
+    },
+    "reviews": {
+      "title": "Reseñas de Resident Alien Netflix",
+      "description": "Vea las reseñas de Resident Alien, las instantáneas de las calificaciones y el sentimiento de la audiencia de las principales plataformas de críticos y espectadores.",
+      "metaTitle": "Reseñas de Resident Alien Netflix - Calificaciones, Rotten Tomatoes y Veredicto de Visualización",
+      "metaDescription": "Siga la cobertura de reseñas de Resident Alien con el contexto de las calificaciones, la discusión de Rotten Tomatoes y los resúmenes prácticos del valor de visualización.",
+      "categoryLabel": "RESEÑAS Y CALIFICACIONES",
+      "whatIs": "¿Qué es la sección de Reseñas?",
+      "whatIsDescription": "Esta sección resume las señales de evaluación en torno a Resident Alien, incluida la recepción de la crítica, el sentimiento de la audiencia y las tendencias de calificación.",
+      "why": "¿Por qué consultar las reseñas primero?",
+      "whySteps": {
+        "step1Title": "Evaluar la Recepción General",
+        "step1Description": "Comprenda si los críticos y el público responden positivamente a Resident Alien.",
+        "step2Title": "Comparar Fuentes de Calificación",
+        "step2Description": "Lea cómo las diferentes plataformas califican el programa y por qué los resultados pueden variar.",
+        "step3Title": "Decidir Si le Conviene",
+        "step3Description": "Utilice el contexto de la reseña para decidir si el tono y el ritmo coinciden con sus gustos."
+      },
+      "featured": "Destacado y Esencial",
+      "all": "Todos los Artículos de Reseñas"
+    },
+    "characters": {
+      "title": "Personajes de Resident Alien Netflix",
+      "description": "Explore los perfiles de personajes de Resident Alien para Harry, Asta, D'Arcy, Sahar y los arcos de apoyo a lo largo de las temporadas.",
+      "metaTitle": "Personajes de Resident Alien Netflix - Harry, Asta, D'Arcy, Sahar y Más",
+      "metaDescription": "Explore las páginas de personajes de Resident Alien con resúmenes de arcos, contexto de roles y desarrollos de personajes específicos de la temporada.",
+      "categoryLabel": "PERFILES DE PERSONAJES",
+      "whatIs": "¿Qué es la sección de Personajes?",
+      "whatIsDescription": "Esta sección se centra en la cobertura a nivel de personaje: personalidades clave, dinámicas de relación y cómo evolucionan los arcos principales a lo largo de las temporadas.",
+      "why": "¿Por qué usar guías de personajes?",
+      "whySteps": {
+        "step1Title": "Seguir Arcos de Personajes",
+        "step1Description": "Rastree cómo cambian los personajes de Resident Alien de una temporada a otra.",
+        "step2Title": "Recordar Relaciones",
+        "step2Description": "Actualice las conexiones y conflictos clave antes de saltar a nuevos episodios.",
+        "step3Title": "Encontrar Análisis Enfocado",
+        "step3Description": "Lea páginas dedicadas centradas en un personaje en lugar de resúmenes amplios."
+      },
+      "featured": "Destacado y Esencial",
+      "all": "Todos los Artículos de Personajes"
+    }
   }
 }
