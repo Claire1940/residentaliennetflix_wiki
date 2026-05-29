@@ -265,88 +265,106 @@
     },
     "storyRecapAndEndingExplained": {
       "title": "Resident Alien Netflix Story Recap and Ending Explained",
-      "intro": "This recap tracks the full arc from Harry’s arrival to the final resolution in Patience.",
+      "intro": "Resident Alien follows Harry Vanderspeigle from crash-landed invader to unlikely protector of Patience, Colorado. This recap separates spoiler-light setup points from finale-level reveals.",
       "steps": [
         {
-          "title": "Arrival and Cover Identity",
-          "description": "Harry enters Patience under a human identity while pursuing his mission."
+          "title": "The Setup",
+          "description": "An alien crash-lands near Patience, kills the real Harry Vanderspeigle, and hides in plain sight while trying to finish his mission."
         },
         {
-          "title": "Human Bonds Complicate the Mission",
-          "description": "Connections with Asta and the town change his values and choices."
+          "title": "Season 1: Harry Starts Changing",
+          "description": "While posing as town doctor, Harry gets pulled into local mysteries and begins changing through his bond with Asta, Max, and Patience."
         },
         {
-          "title": "Escalation with Alien Threats",
-          "description": "Grey and Mantid pressure turns local conflicts into survival stakes."
+          "title": "Season 2 and 3: The Greys and Moonbase Arc",
+          "description": "The Greys become a direct threat, Bridget enters the center of the story, and a Mantid identity takeover creates a major cliffhanger."
         },
         {
-          "title": "Finale Resolution",
-          "description": "The story closes by forcing Harry to choose what kind of being he wants to be."
+          "title": "Season 4: Return, Final Threat, and Ending Meaning",
+          "description": "Harry returns to Patience, faces a final mission-linked alien threat, and ends the series by choosing empathy, sacrifice, and protection over destruction."
         }
       ]
     },
     "reviewsAndRatings": {
       "title": "Resident Alien Netflix Reviews and Ratings Snapshot",
-      "intro": "A quick view of how audiences and critics responded to the show overall.",
+      "intro": "Resident Alien Netflix is strongly rated across major review platforms, with high critic approval and durable audience support.",
       "items": [
         {
-          "label": "Peacock User Rating",
+          "label": "Rotten Tomatoes",
           "score": "97%",
-          "note": "Strong audience reception across the run."
+          "note": "Average Tomatometer from 44 critic reviews, with an 87% audience score from 1,000+ ratings."
         },
         {
-          "label": "Rotten Tomatoes Audience",
-          "score": "87%",
-          "note": "Consistent viewer approval for tone and cast chemistry."
+          "label": "Season-Level Critic Scores",
+          "score": "S1 91% · S2 100% · S4 100%",
+          "note": "Visible season listings show consistent critic support across the full run."
         },
         {
-          "label": "Series Positioning",
-          "score": "TV-14",
-          "note": "Sci-fi comedy-drama with mature themes and genre action."
+          "label": "Metacritic",
+          "score": "70 / 7.0",
+          "note": "Metascore 70 from critics and user score 7.0 from 188 ratings, both generally favorable."
+        },
+        {
+          "label": "IMDb",
+          "score": "8.0/10",
+          "note": "Based on roughly 87K user ratings, reflecting broad viewer approval."
+        },
+        {
+          "label": "Review Takeaway",
+          "score": "High Audience Appeal",
+          "note": "Best fit for viewers who want alien mystery, small-town comedy, and emotional sci-fi character arcs."
         }
       ]
     },
     "filmingLocationsGuide": {
       "title": "Resident Alien Netflix Filming Locations and Patience Guide",
-      "intro": "Patience is fictional, while production work was largely completed in Canada.",
+      "intro": "Patience, Colorado is fictional, while Resident Alien Netflix production was primarily built in British Columbia, Canada.",
       "items": [
         {
           "place": "Patience, Colorado",
-          "description": "A fictional town used as the narrative center of the series."
+          "description": "Patience is the fictional mountain town at the center of Harry’s story and is not a real Colorado municipality."
         },
         {
-          "place": "Vancouver Area",
-          "description": "Major production base for town, forest, and infrastructure sequences."
+          "place": "Ladysmith, British Columbia",
+          "description": "Ladysmith on Vancouver Island serves as the strongest real-world stand-in for Patience exterior street scenes."
         },
         {
-          "place": "Ladysmith",
-          "description": "Used for recognizable downtown-style exterior settings."
+          "place": "Vancouver, British Columbia",
+          "description": "Vancouver-area production and soundstages handle core interiors including civic buildings, bar, diner, and home sets."
         },
         {
-          "place": "Studio Stages",
-          "description": "Key interiors and effects-heavy scenes were captured in controlled stage setups."
+          "place": "Britannia Beach and Howe Sound Area",
+          "description": "Used for the lakeside cabin exterior feel, while major interior cabin scenes were produced as controlled studio sets."
+        },
+        {
+          "place": "Sea-to-Sky Corridor and Pemberton Ice Cap",
+          "description": "Mountain and glacier-style landscapes from British Columbia shape the show’s dramatic wilderness look."
         }
       ]
     },
     "comicSourceMaterialGuide": {
       "title": "Resident Alien Netflix Comic Source Material Guide",
-      "intro": "Resident Alien began as a Dark Horse comic before the TV adaptation expanded its cast and scope.",
+      "intro": "Resident Alien Netflix is based on the Dark Horse comic by Peter Hogan and Steve Parkhouse, then expanded into a broader ensemble TV adaptation.",
       "items": [
         {
-          "name": "Comic Origins",
-          "description": "Created by Peter Hogan and Steve Parkhouse under Dark Horse Comics."
+          "name": "2013 Comic Origins",
+          "description": "Resident Alien began as a Dark Horse comic about an alien hiding as Dr. Harry Vanderspeigle in a small town."
         },
         {
-          "name": "TV Expansion",
-          "description": "The series broadens town dynamics and long-form character relationships."
+          "name": "Core Creators",
+          "description": "Writer Peter Hogan and artist Steve Parkhouse are the foundational creative team behind the comic line."
         },
         {
-          "name": "Tone Difference",
-          "description": "TV leans into ensemble comedy-drama while preserving core mystery DNA."
+          "name": "Volume 8 and Ongoing Story",
+          "description": "The Book of Life continued the collected story in January 2025, followed by The Book of Changes as a new arc."
+        },
+        {
+          "name": "How TV Differs from the Comic",
+          "description": "The show keeps the alien-doctor premise but expands the ensemble, mythology, and emotional arc around Harry, Asta, and Patience."
         },
         {
           "name": "Reading Path",
-          "description": "Comic volumes offer a compact route for fans who want the source perspective."
+          "description": "Collected comic volumes remain the most direct way to follow the quieter source-material version of Harry’s mystery."
         }
       ]
     },

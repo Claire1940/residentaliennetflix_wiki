@@ -75,7 +75,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <button onClick={() => scrollToSection("season-4-episode-guide")} className="inline-flex items-center justify-center gap-2 rounded-lg bg-[hsl(var(--nav-theme))] px-6 py-3.5 text-base font-semibold text-white transition-colors hover:bg-[hsl(var(--nav-theme)/0.9)] md:px-8 md:py-4 md:text-lg">
                 <BookOpen className="h-5 w-5" />
                 {t.hero.getFreeCodesCTA}
-              </a>
+              </button>
               <a href="https://www.peacocktv.com/watch-online/tv/resident-alien/7067427714335486112" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 rounded-lg border border-border px-6 py-3.5 text-base font-semibold transition-colors hover:bg-white/10 md:px-8 md:py-4 md:text-lg">
                 {t.hero.playOnSteamCTA}
                 <ArrowRight className="h-5 w-5" />
