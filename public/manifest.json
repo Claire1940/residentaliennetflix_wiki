@@ -1,15 +1,18 @@
 {
+  "id": "/",
   "name": "Resident Alien Netflix Wiki - Episodes, Cast & Ending",
   "short_name": "Resident Alien",
   "description": "Resident Alien Netflix Wiki covers episodes, cast, characters, ending explanations, streaming info, alien lore, and filming locations.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
   "orientation": "any",
   "theme_color": "#1acc9f",
   "background_color": "#071412",
   "categories": ["entertainment", "reference"],
   "lang": "en",
+  "dir": "ltr",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
@@ -37,6 +40,20 @@
       "src": "/apple-touch-icon.png",
       "sizes": "180x180",
       "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Episode Guide",
+      "short_name": "Episodes",
+      "description": "Browse Resident Alien episode guides and recaps",
+      "url": "/episodes"
+    },
+    {
+      "name": "Cast & Characters",
+      "short_name": "Cast",
+      "description": "Check cast profiles and character arcs",
+      "url": "/cast"
     }
   ]
 }
