@@ -14,46 +14,32 @@ interface ArticleWithType extends ContentItem {
 
 // Module sub-field mapping: moduleKey -> { field, nameKey }
 const MODULE_FIELDS: Record<string, { field: string; nameKey: string }> = {
-  lucidBlocksBeginnerGuide: { field: 'steps', nameKey: 'title' },
-  lucidBlocksApotheosisCrafting: { field: 'cards', nameKey: 'name' },
-  lucidBlocksToolsAndWeapons: { field: 'items', nameKey: 'name' },
-  lucidBlocksStorageAndInventory: { field: 'solutions', nameKey: 'name' },
-  lucidBlocksQualiaAndBaseBuilding: { field: 'cards', nameKey: 'name' },
-  lucidBlocksWorldRegions: { field: 'regions', nameKey: 'name' },
-  lucidBlocksCreaturesAndEnemies: { field: 'creatures', nameKey: 'name' },
-  lucidBlocksMobilityGear: { field: 'items', nameKey: 'name' },
-  lucidBlocksFarmingAndGrowth: { field: 'sections', nameKey: 'name' },
-  lucidBlocksBestEarlyUnlocks: { field: 'priorities', nameKey: 'name' },
-  lucidBlocksAchievementTracker: { field: 'groups', nameKey: 'name' },
-  lucidBlocksSingleplayerAndPlatformFAQ: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSteamDeckAndController: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSettingsAndAccessibility: { field: 'settings', nameKey: 'name' },
-  lucidBlocksUpdatesAndPatchNotes: { field: 'entries', nameKey: 'title' },
-  lucidBlocksCrashFixAndTroubleshooting: { field: 'steps', nameKey: 'title' },
+  season5FinalSeasonStatus: { field: 'items', nameKey: 'label' },
+  whereToWatchStreamingGuide: { field: 'items', nameKey: 'platform' },
+  season4EpisodeGuide: { field: 'items', nameKey: 'title' },
+  castAndCharactersGuide: { field: 'items', nameKey: 'character' },
+  storyRecapAndEndingExplained: { field: 'steps', nameKey: 'title' },
+  reviewsAndRatings: { field: 'items', nameKey: 'label' },
+  filmingLocationsGuide: { field: 'items', nameKey: 'place' },
+  comicSourceMaterialGuide: { field: 'items', nameKey: 'name' },
+  homeQuickNotes: { field: 'notes', nameKey: '__self' },
 }
 
 // Extra semantic keywords per module to boost matching for h2 titles
 // These supplement the module title text when matching against articles
 const MODULE_EXTRA_KEYWORDS: Record<string, string[]> = {
-  lucidBlocksBeginnerGuide: ['guide', 'mastering', 'progression', 'crafting', 'starter'],
-  lucidBlocksApotheosisCrafting: ['apotheosis', 'fusion', 'essence'],
-  lucidBlocksToolsAndWeapons: ['crafting recipes', 'frost pick', 'osmium', 'azrael', 'faith wand'],
-  lucidBlocksStorageAndInventory: ['chest', 'cache cube', 'cabinet', 'storage'],
-  lucidBlocksQualiaAndBaseBuilding: ['qualia', 'clonaqualia', 'personal dimensions'],
-  lucidBlocksWorldRegions: ['tiamana', 'leyline', 'biomes', 'regions'],
-  lucidBlocksCreaturesAndEnemies: ['survival', 'combat', 'surreal creatures'],
-  lucidBlocksMobilityGear: ['bee glider', 'hookshot', 'glider', 'movement'],
-  lucidBlocksFarmingAndGrowth: ['seed', 'farming', 'growth', 'material', 'progression', 'crafting'],
-  lucidBlocksBestEarlyUnlocks: ['early', 'osmium', 'frost pick', 'starter', 'progression'],
-  lucidBlocksAchievementTracker: ['achievement', 'tiamana', 'leyline'],
-  lucidBlocksSingleplayerAndPlatformFAQ: ['multiplayer', 'platform', 'co op'],
-  lucidBlocksSteamDeckAndController: ['steam deck', 'controller', 'proton'],
-  lucidBlocksSettingsAndAccessibility: ['full screen', 'controls', 'display'],
-  lucidBlocksUpdatesAndPatchNotes: ['update', 'patch', 'fix'],
-  lucidBlocksCrashFixAndTroubleshooting: ['crash', 'vulkan', 'troubleshooting', 'full screen', 'controls', 'gameplay'],
+  season5FinalSeasonStatus: ['season 5', 'final season', 'renewal', 'series finale', 'the end is here'],
+  whereToWatchStreamingGuide: ['where to watch', 'streaming', 'peacock', 'usa network', 'syfy', 'netflix'],
+  season4EpisodeGuide: ['season 4', 'episode guide', 'prisoners', 'tunnel vision', 'the end is here'],
+  castAndCharactersGuide: ['cast', 'characters', 'alan tudyk', 'asta twelvetrees', 'harry vanderspeigle'],
+  storyRecapAndEndingExplained: ['story recap', 'ending explained', 'the greys', 'mantid', 'patience colorado'],
+  reviewsAndRatings: ['reviews', 'ratings', 'rotten tomatoes', 'metacritic', 'imdb'],
+  filmingLocationsGuide: ['filming locations', 'patience', 'ladysmith', 'vancouver', 'british columbia'],
+  comicSourceMaterialGuide: ['comic', 'dark horse', 'peter hogan', 'steve parkhouse', 'book of life'],
+  homeQuickNotes: ['quick notes', 'home', 'navigation cards', 'module anchors', 'seo'],
 }
 
-const FILLER_WORDS = ['lucid', 'blocks', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
+const FILLER_WORDS = ['resident', 'alien', 'netflix', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
 
 function normalize(text: string): string {
   return text
@@ -77,9 +63,9 @@ function matchScore(queryText: string, article: ArticleWithType, extraKeywords?:
 
   let score = 0
 
-  // Exact phrase match in title (stripped of "Lucid Blocks")
-  const strippedQuery = normalizedQuery.replace(/lucid blocks?\s*/g, '').trim()
-  const strippedTitle = normalizedTitle.replace(/lucid blocks?\s*/g, '').trim()
+  // Exact phrase match in title (stripped of game name words)
+  const strippedQuery = normalizedQuery.replace(/\bresident\b|\balien\b|\bnetflix\b/g, '').replace(/\s+/g, ' ').trim()
+  const strippedTitle = normalizedTitle.replace(/\bresident\b|\balien\b|\bnetflix\b/g, '').replace(/\s+/g, ' ').trim()
   if (strippedQuery.length > 3 && strippedTitle.includes(strippedQuery)) {
     score += 100
   }
@@ -163,7 +149,11 @@ export async function buildModuleLinkMap(locale: Language): Promise<ModuleLinkMa
     const subItems = moduleData[fieldConfig.field] as any[]
     if (Array.isArray(subItems)) {
       for (let i = 0; i < subItems.length; i++) {
-        const itemName = subItems[i]?.[fieldConfig.nameKey] as string
+        const item = subItems[i]
+        const itemName =
+          fieldConfig.nameKey === '__self'
+            ? (typeof item === 'string' ? item : '')
+            : (item?.[fieldConfig.nameKey] as string)
         if (itemName) {
           const key = `${moduleKey}::${fieldConfig.field}::${i}`
           linkMap[key] = findBestMatch(itemName, allArticles)
