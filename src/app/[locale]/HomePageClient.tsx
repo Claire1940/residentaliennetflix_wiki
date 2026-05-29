@@ -85,7 +85,7 @@ export default function HomePageClient({
 }: HomePageClientProps) {
   const t = useMessages() as any;
   const siteUrl =
-    process.env.NEXT_PUBLIC_SITE_URL || "https://www.lucidblocks.wiki";
+    process.env.NEXT_PUBLIC_SITE_URL || "https://residentaliennetflix.wiki";
 
   // Structured data
   const structuredData = {
@@ -95,15 +95,15 @@ export default function HomePageClient({
         "@type": "WebSite",
         "@id": `${siteUrl}/#website`,
         url: siteUrl,
-        name: "Lucid Blocks Wiki",
+        name: "Resident Alien Netflix Wiki",
         description:
-          "Complete Lucid Blocks Wiki covering crafting, biomes, creatures, items, achievements, lore, and survival tips for the surreal voxel sandbox on Steam.",
+          "Resident Alien Netflix Wiki covering episode guides, cast and character notes, alien lore, ending explanations, streaming info, and filming locations.",
         image: {
           "@type": "ImageObject",
           url: `${siteUrl}/images/hero.webp`,
-          width: 1920,
-          height: 1080,
-          caption: "Lucid Blocks - Surreal Voxel Survival Sandbox",
+          width: 1280,
+          height: 720,
+          caption: "Resident Alien Netflix Wiki",
         },
         potentialAction: {
           "@type": "SearchAction",
@@ -114,11 +114,11 @@ export default function HomePageClient({
       {
         "@type": "Organization",
         "@id": `${siteUrl}/#organization`,
-        name: "Lucid Blocks Wiki",
-        alternateName: "Lucid Blocks",
+        name: "Resident Alien Netflix Wiki",
+        alternateName: "Resident Alien",
         url: siteUrl,
         description:
-          "Complete Lucid Blocks Wiki resource hub for crafting, biomes, creatures, items, achievements, and survival guides",
+          "Fan-made Resident Alien resource hub for episode guides, cast, characters, aliens, ending explainers, streaming, and locations.",
         logo: {
           "@type": "ImageObject",
           url: `${siteUrl}/android-chrome-512x512.png`,
@@ -128,43 +128,35 @@ export default function HomePageClient({
         image: {
           "@type": "ImageObject",
           url: `${siteUrl}/images/hero.webp`,
-          width: 1920,
-          height: 1080,
-          caption: "Lucid Blocks Wiki - Surreal Voxel Survival Sandbox",
+          width: 1280,
+          height: 720,
+          caption: "Resident Alien Netflix Wiki",
         },
         sameAs: [
-          "https://store.steampowered.com/app/3495730/Lucid_Blocks/",
-          "https://discord.com/invite/lucidblocks",
-          "https://www.reddit.com/r/LucidBlocks/",
-          "https://www.youtube.com/@lucy_b_locks",
+          "https://www.syfy.com/resident-alien",
+          "https://www.peacocktv.com/watch-online/tv/resident-alien/7067427714335486112",
+          "https://www.netflix.com/title/81405070",
+          "https://www.reddit.com/r/ResidentAlienTVshow/",
+          "https://www.instagram.com/residentalien/",
         ],
       },
       {
-        "@type": "VideoGame",
-        name: "Lucid Blocks",
-        gamePlatform: ["PC", "Steam"],
-        applicationCategory: "Game",
-        genre: ["Survival", "Sandbox", "Adventure", "Psychedelic"],
-        numberOfPlayers: {
-          minValue: 1,
-          maxValue: 1,
-        },
-        offers: {
-          "@type": "Offer",
-          priceCurrency: "USD",
-          availability: "https://schema.org/InStock",
-          url: "https://store.steampowered.com/app/3495730/Lucid_Blocks/",
-        },
+        "@type": "TVSeries",
+        name: "Resident Alien",
+        genre: ["Science fiction", "Comedy drama", "Mystery"],
+        numberOfSeasons: 4,
+        numberOfEpisodes: 44,
+        contentRating: "TV-14",
       },
       {
         "@type": "VideoObject",
-        name: "LUCID BLOCKS | AVAILABLE NOW",
+        name: "Resident Alien Season 4 Official Trailer",
         description:
-          "Official Lucid Blocks video featuring the Steam launch trailer and gameplay preview.",
-        uploadDate: "2026-03-12",
+          "Official Resident Alien Season 4 trailer from SYFY.",
+        uploadDate: "2025-05-08",
         thumbnailUrl: `${siteUrl}/images/hero.webp`,
-        embedUrl: "https://www.youtube.com/embed/7C7fybRM_No",
-        url: "https://www.youtube.com/watch?v=7C7fybRM_No",
+        embedUrl: "https://www.youtube.com/embed/yTtqHLUIpNg",
+        url: "https://www.youtube.com/watch?v=yTtqHLUIpNg",
       },
     ],
   };
@@ -247,7 +239,7 @@ export default function HomePageClient({
                 {t.hero.getFreeCodesCTA}
               </button>
               <a
-                href="https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+                href="https://www.peacocktv.com/watch-online/tv/resident-alien/7067427714335486112"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-6 py-3.5 md:px-8 md:py-4
@@ -272,8 +264,8 @@ export default function HomePageClient({
         <div className="scroll-reveal container mx-auto max-w-5xl">
           <div className="relative overflow-hidden rounded-2xl">
             <VideoFeature
-              videoId="7C7fybRM_No"
-              title="LUCID BLOCKS | AVAILABLE NOW"
+              videoId="yTtqHLUIpNg"
+              title="Resident Alien Season 4 Official Trailer"
             />
           </div>
         </div>
@@ -779,7 +771,7 @@ export default function HomePageClient({
                 >
                   <div className="mb-3">
                     <span
-                      className={`text-xs px-2 py-1 rounded-full border ${["Hostile Enemy", "Major Threat", "Elite Threat"].includes(c.role) ? "bg-red-500/10 border-red-500/30 text-red-400" : "bg-[hsl(var(--nav-theme)/0.1)] border-[hsl(var(--nav-theme)/0.3)]"}`}
+                      className={`text-xs px-2 py-1 rounded-full border ${["Hostile Enemy", "Major Threat", "Elite Threat"].includes(c.role) ? "bg-[hsl(var(--nav-theme)/0.12)] border-[hsl(var(--nav-theme)/0.35)] text-[hsl(var(--nav-theme-light))]" : "bg-[hsl(var(--nav-theme)/0.1)] border-[hsl(var(--nav-theme)/0.3)]"}`}
                     >
                       {c.role}
                     </span>
@@ -969,7 +961,7 @@ export default function HomePageClient({
                   <div className="flex items-center gap-2 mb-3">
                     <Star className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
                     <span
-                      className={`text-xs px-2 py-1 rounded-full border ${p.priority === "Essential" ? "bg-red-500/10 border-red-500/30 text-red-400" : p.priority === "Very High" ? "bg-orange-500/10 border-orange-500/30 text-orange-400" : "bg-[hsl(var(--nav-theme)/0.1)] border-[hsl(var(--nav-theme)/0.3)]"}`}
+                      className={`text-xs px-2 py-1 rounded-full border ${p.priority === "Essential" ? "bg-[hsl(var(--nav-theme)/0.12)] border-[hsl(var(--nav-theme)/0.35)] text-[hsl(var(--nav-theme-light))]" : p.priority === "Very High" ? "bg-orange-500/10 border-orange-500/30 text-orange-400" : "bg-[hsl(var(--nav-theme)/0.1)] border-[hsl(var(--nav-theme)/0.3)]"}`}
                     >
                       {p.priority}
                     </span>

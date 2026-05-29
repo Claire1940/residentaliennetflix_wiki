@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Resident Alien Wiki - Episodes, Cast & Ending",
+      "description": "Resident Alien Wiki covers episodes, cast, characters, aliens, ending explained, streaming guide, filming locations, and Season 4 finale details.",
+      "keywords": "Resident Alien, Peacock, Netflix, episodes, cast, characters, ending, streaming",
+      "ogTitle": "Resident Alien Wiki - Episodes, Cast & Ending",
+      "ogDescription": "Resident Alien Wiki covers episodes, cast, characters, aliens, ending explained, streaming guide, filming locations, and Season 4 finale details.",
+      "twitterTitle": "Resident Alien Wiki - Episodes, Cast & Ending",
+      "twitterDescription": "Resident Alien Wiki covers episodes, cast, characters, aliens, ending explained, streaming guide, and filming locations."
     }
   },
   "nav": {
@@ -21,7 +21,7 @@
   "common": {
     "home": "Home",
     "more": "More",
-    "playNow": "Play on Steam",
+    "playNow": "Watch on Peacock",
     "switchLanguage": "Switch Language",
     "switchTheme": "Switch Theme",
     "lightMode": "Light Mode",
@@ -34,33 +34,33 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Sci-Fi Comedy Drama",
+    "title": "Resident Alien Wiki",
+    "description": "Resident Alien Wiki helps viewers follow Harry Vanderspeigle's story with episode guides, cast and character notes, alien lore, ending explanations, streaming info, and filming locations.",
+    "getFreeCodesCTA": "View Episode Guide",
+    "playOnSteamCTA": "Watch on Peacock",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "4",
+        "label": "Seasons"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "44",
+        "label": "Episodes"
       },
       "stat3": {
         "value": "97%",
-        "label": "Positive Reviews"
+        "label": "Peacock Rating"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "TV-14",
+        "label": "Age Rating"
       }
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Resident Alien Trailer",
+    "description": "Watch the official Resident Alien trailer and use the wiki to track episodes, characters, alien lore, and finale details."
   },
   "tools": {
     "title": "Lucid Blocks",
