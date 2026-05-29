@@ -1,1 +1,10 @@
-{}
+{
+  "nav": {
+    "season": "Season",
+    "cast": "Cast",
+    "streaming": "Streaming",
+    "guide": "Guide",
+    "reviews": "Reviews",
+    "characters": "Characters"
+  }
+}

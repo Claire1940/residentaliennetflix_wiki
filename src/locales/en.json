@@ -10,7 +10,14 @@
       "twitterDescription": "Resident Alien Wiki covers episodes, cast, characters, aliens, ending explained, streaming guide, and filming locations."
     }
   },
-  "nav": {},
+  "nav": {
+    "season": "Season",
+    "cast": "Cast",
+    "streaming": "Streaming",
+    "guide": "Guide",
+    "reviews": "Reviews",
+    "characters": "Characters"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -424,125 +431,125 @@
     "disclaimer": "Unofficial fan-made TV series resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Resident Alien Netflix Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Resident Alien Netflix Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Resident Alien Netflix guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
+    "season": {
+      "title": "Resident Alien Netflix Season",
+      "description": "Track Resident Alien season news including Season 4 updates, renewal status, release timing, and where each season is streaming.",
+      "metaTitle": "Resident Alien Netflix Season - Season 4, Season 5, Renewal & Release Updates",
+      "metaDescription": "Follow Resident Alien season coverage with Season 4 timeline, Season 5 status, cancellation rumors, final season discussion, and streaming updates.",
+      "categoryLabel": "SEASON UPDATES",
+      "whatIs": "What is the Season section?",
+      "whatIsDescription": "This section organizes season-level coverage: current season status, renewal and cancellation signals, release windows, and platform availability for each season.",
+      "why": "Why follow season updates?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step1Title": "Track Renewal Signals",
+        "step1Description": "See whether Resident Alien is renewed, at risk, or nearing a final-season outcome.",
+        "step2Title": "Plan Your Watch Window",
+        "step2Description": "Use release and streaming timing updates to know when new episodes are available.",
+        "step3Title": "Separate Rumor From News",
+        "step3Description": "Keep one place for season facts, official announcements, and practical viewing implications."
       },
       "featured": "Featured & Essential",
-      "all": "All Guides"
+      "all": "All Season Articles"
     },
-    "crafting": {
-      "title": "Resident Alien Netflix Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Resident Alien Netflix Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Resident Alien Netflix Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+    "cast": {
+      "title": "Resident Alien Netflix Cast",
+      "description": "Explore Resident Alien cast profiles, Season 4 cast changes, and character actor references including major recurring roles.",
+      "metaTitle": "Resident Alien Netflix Cast - Actors, Season 4 Cast & Role Guide",
+      "metaDescription": "Browse Resident Alien cast guides with actor spotlights, Season 4 cast additions, role breakdowns, and recurring guest appearances.",
+      "categoryLabel": "CAST GUIDE",
+      "whatIs": "What is the Cast section?",
+      "whatIsDescription": "This section covers actors and casting context across seasons, including who plays each core character and how the ensemble changes over time.",
+      "why": "Why read cast guides?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Identify Key Actors",
+        "step1Description": "Quickly match Resident Alien characters to the actors who portray them.",
+        "step2Title": "Follow Season Changes",
+        "step2Description": "Understand cast additions, departures, and expanded roles by season.",
+        "step3Title": "Navigate Related Credits",
+        "step3Description": "Use cast pages as a hub for role context and notable appearances."
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Cast Articles"
     },
-    "items": {
-      "title": "Resident Alien Netflix Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Resident Alien Netflix Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Resident Alien Netflix including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+    "streaming": {
+      "title": "Resident Alien Netflix Streaming",
+      "description": "Find where to watch Resident Alien across Netflix, Peacock, Prime Video, Apple TV, and regional streaming options.",
+      "metaTitle": "Resident Alien Netflix Streaming - Where to Watch by Platform & Region",
+      "metaDescription": "Check Resident Alien streaming availability, platform differences, and regional watch options including Netflix, Peacock, Prime Video, and Apple TV.",
+      "categoryLabel": "WATCH OPTIONS",
+      "whatIs": "What is the Streaming section?",
+      "whatIsDescription": "This section focuses on viewing availability: which platforms carry Resident Alien, how regions differ, and what to expect when searching by service.",
+      "why": "Why use streaming guides?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Find Active Platforms",
+        "step1Description": "See where Resident Alien is available right now across major services.",
+        "step2Title": "Compare Regional Access",
+        "step2Description": "Understand differences between US and international platform catalogs.",
+        "step3Title": "Avoid Dead-End Searches",
+        "step3Description": "Use platform-specific pages to check likely availability before signing up."
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Streaming Articles"
     },
-    "biomes": {
-      "title": "Resident Alien Netflix Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Resident Alien Netflix Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Resident Alien Netflix biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+    "guide": {
+      "title": "Resident Alien Netflix Guide",
+      "description": "Read Resident Alien episode guides, plot recaps, ending explanations, and season-by-season viewing structure.",
+      "metaTitle": "Resident Alien Netflix Guide - Episode List, Plot Recap & Ending Explained",
+      "metaDescription": "Use Resident Alien guide articles for episode breakdowns, season recaps, ending analysis, and practical watch-order support.",
+      "categoryLabel": "EPISODE GUIDE",
+      "whatIs": "What is the Guide section?",
+      "whatIsDescription": "This section collects story and episode references, including plot outlines, recap pages, episode counts, and ending-explained coverage.",
+      "why": "Why read episode guides?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Catch Up Faster",
+        "step1Description": "Use recap and plot pages to re-enter the story before a new season.",
+        "step2Title": "Navigate Episode Structure",
+        "step2Description": "Check episode counts and season organization in one place.",
+        "step3Title": "Understand Key Endings",
+        "step3Description": "Review ending explanations when major arcs and reveals need context."
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Guide Articles"
     },
-    "building": {
-      "title": "Resident Alien Netflix Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Resident Alien Netflix Building - Qualia & Base Construction",
-      "metaDescription": "Master Resident Alien Netflix building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+    "reviews": {
+      "title": "Resident Alien Netflix Reviews",
+      "description": "See Resident Alien reviews, ratings snapshots, and audience sentiment from major critic and viewer platforms.",
+      "metaTitle": "Resident Alien Netflix Reviews - Ratings, Rotten Tomatoes & Watch Verdict",
+      "metaDescription": "Track Resident Alien review coverage with ratings context, Rotten Tomatoes discussion, and practical watch-value summaries.",
+      "categoryLabel": "REVIEWS & RATINGS",
+      "whatIs": "What is the Reviews section?",
+      "whatIsDescription": "This section summarizes evaluation signals around Resident Alien, including critic reception, audience sentiment, and rating trends.",
+      "why": "Why check reviews first?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Gauge Overall Reception",
+        "step1Description": "Understand whether critics and audiences respond positively to Resident Alien.",
+        "step2Title": "Compare Rating Sources",
+        "step2Description": "Read how different platforms score the show and why results can vary.",
+        "step3Title": "Decide If It Fits You",
+        "step3Description": "Use review context to decide if the tone and pacing match your taste."
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Review Articles"
     },
-    "support": {
-      "title": "Resident Alien Netflix Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Resident Alien Netflix Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Resident Alien Netflix including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+    "characters": {
+      "title": "Resident Alien Netflix Characters",
+      "description": "Browse Resident Alien character spotlights for Harry, Asta, D'Arcy, Sahar, and supporting arcs across seasons.",
+      "metaTitle": "Resident Alien Netflix Characters - Harry, Asta, D'Arcy, Sahar & More",
+      "metaDescription": "Explore Resident Alien character pages with arc summaries, role context, and season-specific character developments.",
+      "categoryLabel": "CHARACTER PROFILES",
+      "whatIs": "What is the Characters section?",
+      "whatIsDescription": "This section focuses on character-level coverage: key personalities, relationship dynamics, and how major arcs evolve across seasons.",
+      "why": "Why use character guides?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Follow Character Arcs",
+        "step1Description": "Track how Resident Alien characters change from season to season.",
+        "step2Title": "Recall Relationships",
+        "step2Description": "Refresh key connections and conflicts before jumping into new episodes.",
+        "step3Title": "Find Focused Analysis",
+        "step3Description": "Read dedicated pages centered on one character instead of broad recaps."
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Character Articles"
     }
   }
 }
