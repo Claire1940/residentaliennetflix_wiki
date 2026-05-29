@@ -35,8 +35,8 @@
   },
   "hero": {
     "badge": "Sci-Fi Comedy Drama",
-    "title": "Resident Alien Wiki",
-    "description": "Resident Alien Wiki helps viewers follow Harry Vanderspeigle's story with episode guides, cast and character notes, alien lore, ending explanations, streaming info, and filming locations.",
+    "title": "Resident Alien Netflix Wiki",
+    "description": "Resident Alien Netflix Wiki helps viewers follow Harry Vanderspeigle's story with episode guides, cast and character notes, alien lore, ending explanations, streaming info, and filming locations.",
     "getFreeCodesCTA": "View Episode Guide",
     "playOnSteamCTA": "Watch on Peacock",
     "stats": {
@@ -785,27 +785,27 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "title": "Start Watching Resident Alien Netflix",
+    "description": "Read episode guides and ending explainers, then watch Resident Alien on Peacock or Netflix.",
+    "joinCommunity": "Join Reddit Community",
+    "joinGame": "Watch on Peacock"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Resident Alien Netflix Wiki",
+    "description": "Your complete resource hub for Resident Alien episodes, cast, characters, ending explainers, and streaming links.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
-    "discord": "Discord",
+    "discord": "Reddit Community",
     "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "steamCommunity": "Netflix",
+    "steamStore": "Peacock",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
-    "disclaimer": "Unofficial fan-made resource website."
+    "copyright": "© 2026 Resident Alien Netflix Wiki. Not affiliated with SYFY, USA Network, Peacock, or Netflix.",
+    "disclaimer": "Unofficial fan-made TV series resource website."
   },
   "pages": {
     "guides": {
